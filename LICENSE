@@ -1,1 +1,94 @@
 
+MIT License with Attribution Requirement
+مجوز MIT با شرط ذکر نام
+
+--------------------------------------------------------------------------------
+English Version
+--------------------------------------------------------------------------------
+
+MIT License with Attribution Requirement
+
+Copyright (c) 2026 AmirHossein Haji Moradkhani (AHM)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+2. Any use, reproduction, or distribution of the Software must give appropriate
+   credit to the original author (AmirHossein Haji Moradkhani - AHM), provide a
+   link to the license, and indicate if changes were made.
+
+3. You may not use the name "AHM", "AmirHossein Haji Moradkhani", or any
+   derivative thereof to endorse or promote products derived from this Software
+   without specific prior written permission from the copyright holder.
+
+4. Any derivative works or modifications must clearly state that they are based
+   on the original work by AmirHossein Haji Moradkhani (AHM) and include a link
+   to the original repository: https://github.com/amirhossin1395/AHM_QR_Code_Generator
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+Persian Version (نسخه فارسی)
+--------------------------------------------------------------------------------
+
+مجوز MIT با شرط ذکر نام
+
+کپی‌رایت (c) ۱۴۰۵ امیرحسین حاجی مرادخانی (AHM)
+
+بدین وسیله به هر شخصی که یک نسخه از این نرم‌افزار و فایل‌های مستندات مرتبط
+(که از این پس "نرم‌افزار" نامیده می‌شود) را دریافت می‌کند، اجازه داده می‌شود
+که بدون محدودیت با نرم‌افزار کار کند، از جمله بدون محدودیت در حقوق استفاده،
+کپی‌برداری، تغییر، ادغام، انتشار، توزیع، صدور مجوز فرعی و/یا فروش نسخه‌هایی
+از نرم‌افزار، و اجازه دادن به افرادی که نرم‌افزار در اختیار آنها قرار می‌گیرد
+تا این کار را انجام دهند، مشروط به شرایط زیر:
+
+۱. اخطار کپی‌رایت فوق و این اخطار مجوز باید در تمام نسخه‌ها یا بخش‌های قابل
+   توجهی از نرم‌افزار درج شود.
+
+۲. هرگونه استفاده، تکثیر یا توزیع از نرم‌افزار باید با ذکر مناسب نام پدیدآورنده
+   اصلی (امیرحسین حاجی مرادخانی - AHM)، ارائه لینک به مجوز، و در صورت ایجاد
+   تغییر، ذکر آن همراه باشد.
+
+۳. شما نمی‌توانید از نام "AHM"، "امیرحسین حاجی مرادخانی" یا هر مشتقی از آن
+   برای تأیید یا ترویج محصولات مشتق‌شده از این نرم‌افزار بدون کسب اجازه کتبی
+   و خاص از دارنده کپی‌رایت استفاده کنید.
+
+۴. آثار مشتق‌شده یا تغییرات باید به‌وضوح بیان کنند که بر اساس اثر اصلی
+   امیرحسین حاجی مرادخانی (AHM) ساخته شده‌اند و شامل لینکی به مخزن اصلی
+   باشند: https://github.com/amirhossin1395/AHM_QR_Code_Generator
+
+نرم‌افزار "همان‌گونه که هست" ارائه می‌شود، بدون هیچ گونه ضمانت، صریح یا ضمنی،
+از جمله اما نه محدود به ضمانت‌های قابلیت فروش، مناسب بودن برای یک هدف خاص
+و عدم نقض حقوق. در هیچ شرایطی پدیدآورندگان یا دارندگان کپی‌رایت در قبال
+هر گونه ادعا، خسارت یا مسئولیت دیگری، چه در یک اقدام قراردادی، چه در
+قبال بی‌مسئولیتی و یا غیره، ناشی از یا مربوط به نرم‌افزار یا استفاده
+یا معاملات دیگر در نرم‌افزار، مسئول نخواهند بود.
+
+--------------------------------------------------------------------------------
+How to Give Credit / نحوه ذکر نام
+--------------------------------------------------------------------------------
+
+When using this software, you must include the following attribution:
+
+جهت استفاده از این نرم‌افزار، باید ذکر نام زیر را درج کنید:
+
+"This software is based on the 'AHM QR Code Generator' project 
+by AmirHossein Haji Moradkhani (AHM).
+Source: https://github.com/amirhossin1395/AHM_QR_Code_Generator"
+
+"این نرم‌افزار بر اساس پروژه 'کیو آر کد ساز AHM' 
+توسط امیرحسین حاجی مرادخانی (AHM) ساخته شده است.
+منبع: https://github.com/amirhossin1395/AHM_QR_Code_Generator"

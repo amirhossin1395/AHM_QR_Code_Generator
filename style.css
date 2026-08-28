@@ -1,0 +1,426 @@
+/* ============================================================
+🌟 کیو آر کد ساز AHM - استایل فوق‌حرفه‌ای
+============================================================ */
+
+/* ============================================================
+🌌 تنظیمات پایه
+============================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: radial-gradient(ellipse at 30% 20%, #0b0b2a, #1a1a4e 60%, #0f0f23 100%);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ============================================================
+🏠 کانتینر اصلی
+============================================================ */
+
+.container {
+    width: 100%;
+    max-width: 620px;
+    padding: 35px 30px;
+    animation: fadeIn 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.96);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ============================================================
+✨ افکت شیشه‌ای (Glassmorphism)
+============================================================ */
+
+.glass {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 24px;
+    box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.glass:hover {
+    border-color: rgba(255, 215, 0, 0.08);
+}
+
+/* ============================================================
+🏷️ هدر
+============================================================ */
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 2.4rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #f7dc6f, #f1c40f, #f39c12);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s linear infinite;
+    letter-spacing: 2px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+.logo span {
+    -webkit-text-fill-color: initial;
+    background: none;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+
+/* ============================================================
+📝 فرم ورودی
+============================================================ */
+
+.form-group {
+    margin-bottom: 18px;
+    text-align: right;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.form-group .required {
+    color: #e74c3c;
+}
+
+.form-group input[type="url"],
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.04);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #f1c40f;
+    background: rgba(255, 215, 0, 0.04);
+    box-shadow: 0 0 0 4px rgba(241, 196, 15, 0.04);
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================================
+📂 آپلود فایل
+============================================================ */
+
+.file-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.file-wrapper input[type="file"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-label {
+    padding: 14px 18px;
+    color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.file-wrapper:hover .file-label {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+/* ============================================================
+🖼️ پیش‌نمایش آیکون
+============================================================ */
+
+.icon-preview {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.icon-preview img {
+    max-height: 40px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 4px;
+}
+
+.btn-remove-icon {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-remove-icon:hover {
+    background: rgba(231, 76, 60, 0.1);
+}
+
+/* ============================================================
+🎯 دکمه ساخت QR
+============================================================ */
+
+.btn-generate {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #f1c40f, #f39c12);
+    color: #0a0a1a;
+    font-weight: 800;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    margin-top: 6px;
+}
+
+.btn-generate:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 35px rgba(241, 196, 15, 0.2);
+}
+
+.btn-generate:active {
+    transform: scale(0.98);
+}
+
+/* ============================================================
+📤 خروجی QR
+============================================================ */
+
+.qr-output {
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.qr-output.active {
+    display: flex;
+}
+
+.qr-box {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.qr-box canvas {
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.qr-footer {
+    margin-top: 10px;
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.08);
+    letter-spacing: 1px;
+}
+
+/* ============================================================
+🎛️ دکمه‌های دانلود و کپی
+============================================================ */
+
+.qr-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.qr-actions button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.qr-actions button:hover {
+    transform: translateY(-2px);
+}
+
+.qr-actions .btn-download {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+.qr-actions .btn-download:hover {
+    background: linear-gradient(135deg, #27ae60, #1e8449);
+}
+
+.qr-actions .btn-copy {
+    background: rgba(52, 152, 219, 0.2);
+    border: 1px solid rgba(52, 152, 219, 0.15);
+    color: #3498db;
+}
+
+.qr-actions .btn-copy:hover {
+    background: rgba(52, 152, 219, 0.3);
+}
+
+/* ============================================================
+ℹ️ درباره و سورس کد
+============================================================ */
+
+.info-section {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.85rem;
+}
+
+.info-label {
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+
+.info-value {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.github-link {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    word-break: break-all;
+}
+
+.github-link:hover {
+    color: #fff;
+    text-shadow: 0 0 20px rgba(241, 196, 15, 0.2);
+}
+
+/* ============================================================
+📌 فوتر
+============================================================ */
+
+.footer {
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.02);
+    text-align: center;
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.05);
+    letter-spacing: 0.5px;
+}
+
+.footer span {
+    color: rgba(255, 215, 0, 0.1);
+}
+
+/* ============================================================
+📱 واکنش‌گرا
+============================================================ */
+
+@media (max-width: 500px) {
+    .container {
+        padding: 20px 14px;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .qr-box canvas {
+        width: 160px;
+        height: 160px;
+    }
+
+    .qr-actions button {
+        padding: 8px 14px;
+        font-size: 0.75rem;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+}

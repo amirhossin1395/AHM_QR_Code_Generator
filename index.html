@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>🌟 کیو آر کد ساز AHM</title>
+    
+    <!-- کتابخانه QRCode.js -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    
+    <!-- فایل CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================================
+    🏠 کانتینر اصلی
+    ============================================================ -->
+
+    <div class="container">
+        
+        <!-- ============================================================
+        🏷️ هدر
+        ============================================================ -->
+
+        <div class="header">
+            <div class="logo">🌟 کیو آر کد ساز <span>AHM</span></div>
+            <div class="subtitle">بهترین و حرفه‌ای‌ترین ابزار تولید کد QR</div>
+        </div>
+
+        <!-- ============================================================
+        📝 فرم ورودی
+        ============================================================ -->
+
+        <div class="form-group">
+            <label for="linkInput">🔗 لینک مقصد <span class="required">*</span></label>
+            <input type="url" id="linkInput" placeholder="https://example.com" value="https://" />
+        </div>
+
+        <div class="form-group">
+            <label for="iconInput">🖼️ آیکون وسط (اختیاری)</label>
+            <div class="file-wrapper glass">
+                <div class="file-label" id="iconLabel">📂 انتخاب تصویر (PNG با پس‌زمینه شفاف)</div>
+                <input type="file" id="iconInput" accept="image/png, image/jpeg" />
+            </div>
+            <div class="icon-preview" id="iconPreview" style="display:none;">
+                <img id="iconPreviewImg" src="#" alt="آیکون" />
+                <button class="btn-remove-icon" onclick="removeIcon()">✕ حذف</button>
+            </div>
+        </div>
+
+        <button class="btn-generate glass" onclick="generateQR()">🚀 ساخت کیو آر کد</button>
+
+        <!-- ============================================================
+        📤 خروجی QR
+        ============================================================ -->
+
+        <div class="qr-output" id="qrOutput">
+            <div class="qr-box glass" id="qrcode"></div>
+            <div class="qr-footer">ساخته شده با کیو آر کد ساز AHM</div>
+
+            <div class="qr-actions">
+                <button class="btn-download glass" onclick="downloadQR('png')">📥 دانلود PNG</button>
+                <button class="btn-download glass" onclick="downloadQR('jpg')">📥 دانلود JPG</button>
+                <button class="btn-copy glass" onclick="copyLink()">📋 کپی لینک</button>
+            </div>
+        </div>
+
+        <!-- ============================================================
+        ℹ️ درباره و سورس کد
+        ============================================================ -->
+
+        <div class="info-section glass">
+            <div class="info-row">
+                <span class="info-label">📌 درباره</span>
+                <span class="info-value">بهترین ابزار تولید کد QR با قابلیت افزودن آیکون وسط</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">👨‍💻 سازنده</span>
+                <span class="info-value">امیرحسین حاجی مرادخانی (AHM)</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">📂 سورس کد</span>
+                <a href="https://github.com/amirhossin1395/AHM_QR_Code_Generator" target="_blank" class="github-link">
+                    🌐 github.com/amirhossin1395/AHM_QR_Code_Generator
+                </a>
+            </div>
+        </div>
+
+        <!-- ============================================================
+        📌 فوتر
+        ============================================================ -->
+
+        <div class="footer">
+            <span>© 2026</span> · همه حقوق محفوظ است · <span>امیرحسین حاجی مرادخانی (AHM)</span>
+        </div>
+    </div>
+
+    <!-- ============================================================
+    🎯 فایل جاوااسکریپت
+    ============================================================ -->
+
+    <script src="script.js"></script>
+</body>
+</html>

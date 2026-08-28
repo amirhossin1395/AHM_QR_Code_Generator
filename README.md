@@ -72,23 +72,75 @@
 
 ---
 
-### 📞 **ارتباط با سازنده**
 
-:
 
-- **گیت‌هاب**: [github.com/amirhossin1395](https://github.com/amirhossin1395)
+---
+
+## 📖 **Project Overview**
+
+### 🎯 **Project Goal**
+
+The goal of **AHM QR Code Generator** is to provide a simple, fast, and professional tool for creating QR codes with customization options. This project is designed to help users generate beautiful and scannable QR codes completely free of charge.
+
+### 🧠 **How It Works**
+
+1. **Enter Link**: The user enters their desired link into the input field.
+2. **Add Icon (Optional)**: If desired, the user can upload an image (with a transparent background) to place as a center icon in the QR code.
+3. **Generate QR Code**: By clicking the "Generate QR Code" button, the application creates a standard QR code using the `QRCode.js` library.
+4. **Download or Copy**: The user can download the generated code as PNG or JPG, or copy the original link.
+
+### ✨ **Why This Project Stands Out**
+
+- **No Installation Required**: Everything runs directly in the browser.
+- **High Speed**: QR codes are generated in milliseconds.
+- **Glassmorphism Design**: Modern and attractive interface with Glassmorphism effects.
+- **Icon Support**: Ability to add a custom icon in the center of the QR code.
+- **High Error Correction**: With Level H, the QR code remains scannable even with a center icon.
+- **Responsive**: Displays perfectly on all devices (mobile, tablet, desktop).
+
+### 🌐 **Use Cases**
+
+- Creating QR codes for social media links, websites, forms, products, business cards, and more.
+- Use in marketing, advertising, education, and personal projects.
+- A free alternative to expensive and complex tools.
+
+### 🛡️ **Privacy & Security**
+
+- All operations are performed locally in the user's browser.
+- No data is sent to or stored on any server.
+- User links and information remain completely confidential.
+
+### 🤝 **Support the Project**
+
+If you like this project, you can support it by:
+- ⭐ Giving a star to the repository on GitHub
+- 🔁 Sharing it with friends and colleagues
+- 💡 Sharing new ideas for improvement
+
+---
+
+### 📞 **Contact the Developer**
+
+If you have any questions, ideas, or suggestions, feel free to reach out:
+
+- **GitHub**: [github.com/amirhossin1395](https://github.com/amirhossin1395)
+
 ---
 
 <div align="center">
-  <p>🌌 <strong>کیو آر کد ساز AHM</strong> — ساخته شده با ❤️ در کرمان، ایران</p>
+  <p>🌌 <strong>AHM QR Code Generator</strong> — Made with ❤️ in Kerman, Iran</p>
   <p>
     <a href="https://wandering-limit-67dc.amirhosseinhajimoradkhani.workers.dev/">
-      <img src="https://img.shields.io/badge/%F0%9F%8C%90_%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%F0%9F%9A%80-0a0a1a?style=for-the-badge" alt="مشاهده برنامه">
+      <img src="https://img.shields.io/badge/%F0%9F%8C%90_View_App-%F0%9F%9A%80-0a0a1a?style=for-the-badge" alt="View App">
     </a>
   </p>
   <p style="font-size:0.8rem; color:#666;">
-    © 2026 - تمامی حقوق برای امیرحسین حاجی مرادخانی (AHM) محفوظ است.
+    © 2026 - All rights reserved by AmirHossein Haji Moradkhani (AHM)
   </p>
 </div>
+
+
+
+
 git clone https://github.com/amirhossin1395/AHM_QR_Code_Generator.git
 cd AHM_QR_Code_Generator
